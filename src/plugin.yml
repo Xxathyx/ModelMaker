@@ -1,0 +1,27 @@
+main: fr.xxathyx.shadowz.modelmaker.Main
+name: ModelMaker
+version: 1.0
+author: Xxathyx
+description: ShadowZ Model Maker
+
+commands:
+  editor:
+    description: "Allows enter/leave the model editor."
+    permission: modelmaker.command.editor
+  mk:
+    description: "Access personal functionality using a menu."
+    permission: modelmaker.command.menu
+  model:
+    description: "Use models functionality using commands."
+    aliases: [m]
+    permission: modelmaker.command.model
+  translation:
+    description: "Create, edit, reset, manage translations."
+    permission: modelmaker.command.translation
+  translations:
+    description: "Give a list of registered translations."
+    permission: modelmaker.command.translations
+
+permissions:
+  modelmaker.admin:
+    description: "Access to administration panel and access all map models."
